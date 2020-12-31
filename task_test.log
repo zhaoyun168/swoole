@@ -1,0 +1,145 @@
+Get Message From Client 1:{"url":"https:\/\/www.baidu.com\/","param":{"username":"test","password":"test"}}
+Get Message From Client 1:{"url":"https:\/\/www.baidu.com\/","param":{"username":"test","password":"test"}}
+Task 0 finish
+Result: 
+Get Message From Client 1:{"url":"https:\/\/www.baidu.com\/","param":{"username":"test","password":"test"}}
+curl请求异常[Resolving timed out after 5522 milliseconds]Task 0 finish
+Result: 
+Get Message From Client 2:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 1 finish
+Result: Hello world!
+Get Message From Client 3:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 2 finish
+Result: Hello world!
+Get Message From Client 4:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 3 finish
+Result: Hello world!
+Get Message From Client 5:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 4 finish
+Result: Hello world!
+Get Message From Client 6:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 5 finish
+Result: Hello world!
+Get Message From Client 7:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 6 finish
+Result: Hello world!
+Get Message From Client 8:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 7 finish
+Result: Hello world!
+Get Message From Client 9:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 8 finish
+Result: Hello world!
+Get Message From Client 10:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 9 finish
+Result: Hello world!
+Get Message From Client 11:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 10 finish
+Result: Hello world!
+Get Message From Client 12:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 11 finish
+Result: Hello world!
+Get Message From Client 13:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 12 finish
+Result: Hello world!
+Get Message From Client 14:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 13 finish
+Result: Hello world!
+Get Message From Client 15:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 14 finish
+Result: Hello world!
+Get Message From Client 16:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 15 finish
+Result: Hello world!
+Get Message From Client 17:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 16 finish
+Result: Hello world!
+Get Message From Client 18:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 17 finish
+Result: Hello world!
+Get Message From Client 19:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 18 finish
+Result: Hello world!
+Get Message From Client 20:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 19 finish
+Result: Hello world!
+Get Message From Client 21:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 20 finish
+Result: Hello world!
+Get Message From Client 22:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 21 finish
+Result: Hello world!
+Get Message From Client 23:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 22 finish
+Result: Hello world!
+Get Message From Client 24:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 23 finish
+Result: Hello world!
+Get Message From Client 25:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 24 finish
+Result: Hello world!
+Get Message From Client 26:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 25 finish
+Result: Hello world!
+Get Message From Client 27:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 26 finish
+Result: Hello world!
+Get Message From Client 28:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 27 finish
+Result: Hello world!
+Get Message From Client 29:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 28 finish
+Result: Hello world!
+Get Message From Client 30:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 29 finish
+Result: Hello world!
+Get Message From Client 31:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 30 finish
+Result: Hello world!
+Get Message From Client 32:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 31 finish
+Result: Hello world!
+Get Message From Client 33:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 32 finish
+Result: Hello world!
+Get Message From Client 34:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 33 finish
+Result: Hello world!
+Get Message From Client 1:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 0 finish
+Result: Hello world!
+Get Message From Client 2:{"url":"http:\/\/localhost","param":{"username":"test","password":"test"}}
+Task 1 finish
+Result: Hello world!
+[2020-12-30 10:06:27 #5230.1]	INFO	Server is shutdown now
+[2020-12-30 10:26:39 *6128.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught TypeError: Argument 1 passed to app\schedule\controller\TaskCommand::onReceive() must be an instance of app\schedule\controller\swoole_server, instance of Swoole\Server given in /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php:120
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php on line 120
+[2020-12-30 10:26:39 $6118.0]	WARNING	swManager_check_exit_status: worker#0[pid=6128] abnormal exit, status=255, signal=0
+[2020-12-30 10:28:49 ^6244.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method app\schedule\controller\TaskCommand::httpGet() in /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php:131
+Stack trace:
+#0 [internal function]: app\schedule\controller\TaskCommand->onTask(Object(Swoole\Server), 0, 0, '{"url":"http:\\/...')
+#1 /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php(117): Swoole\Server->start()
+#2 /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php(64): app\schedule\controller\TaskCommand->start()
+#3 /var/www/html/sybtmb/think/thinkphp/library/think/console/Command.php(175): app\schedule\controller\TaskCommand->execute(Object(think\console\Input), Object(think\console\Output))
+#4 /var/www/html/sybtmb/think/thinkphp/library/think/Console.php(674): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#5 /var/www/html/sybtmb/think/thinkphp/library/think/Console.php(242): think\Console->doRunCommand(Object(app\schedule\controller\TaskCommand), Object(think\console\Input), Object(think\co in /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php on line 131
+[2020-12-30 10:28:49 $6242.0]	WARNING	swManager_check_exit_status: worker#1[pid=6244] abnormal exit, status=255, signal=0
+[2020-12-30 10:41:41 #6556.1]	INFO	Server is shutdown now
+[2020-12-30 10:46:09 *6871.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught think\exception\PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'result' at row 1 in /var/www/html/sybtmb/think/thinkphp/library/think/db/Connection.php:456
+Stack trace:
+#0 /var/www/html/sybtmb/think/thinkphp/library/think/db/Query.php(241): think\db\Connection->execute('INSERT INTO `yb...', Array)
+#1 /var/www/html/sybtmb/think/thinkphp/library/think/db/Query.php(2108): think\db\Query->execute('INSERT INTO `yb...', Array)
+#2 /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php(145): think\db\Query->insert(Array)
+#3 {main}
+  thrown in /var/www/html/sybtmb/think/thinkphp/library/think/db/Connection.php on line 456
+[2020-12-30 10:46:09 $6861.0]	WARNING	swManager_check_exit_status: worker#0[pid=6871] abnormal exit, status=255, signal=0
+[2020-12-30 10:47:02 *7083.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught think\exception\PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'result' at row 1 in /var/www/html/sybtmb/think/thinkphp/library/think/db/Connection.php:456
+Stack trace:
+#0 /var/www/html/sybtmb/think/thinkphp/library/think/db/Query.php(241): think\db\Connection->execute('INSERT INTO `yb...', Array)
+#1 /var/www/html/sybtmb/think/thinkphp/library/think/db/Query.php(2108): think\db\Query->execute('INSERT INTO `yb...', Array)
+#2 /var/www/html/sybtmb/app/schedule/controller/TaskCommand.php(145): think\db\Query->insert(Array)
+#3 {main}
+  thrown in /var/www/html/sybtmb/think/thinkphp/library/think/db/Connection.php on line 456
+[2020-12-30 10:47:02 $6861.0]	WARNING	swManager_check_exit_status: worker#0[pid=7083] abnormal exit, status=255, signal=0
+[2020-12-30 10:48:39 #6853.1]	INFO	Server is shutdown now
